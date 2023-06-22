@@ -1,0 +1,53 @@
+{
+  "name": "soccer-tracker-app",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "mocha restapis-backend/tests/*.js"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^12.2.17",
+    "@angular/common": "~12.2.0",
+    "@angular/compiler": "~12.2.0",
+    "@angular/core": "~12.2.0",
+    "@angular/forms": "~12.2.0",
+    "@angular/platform-browser": "~12.2.0",
+    "@angular/platform-browser-dynamic": "~12.2.0",
+    "@angular/router": "~12.2.0",
+    "@fortawesome/angular-fontawesome": "^0.13.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "angular-font-awesome": "^3.1.2",
+    "express": "^4.18.2",
+    "font-awesome": "^4.7.0",
+    "mongodb-memory-server": "^8.13.0",
+    "mongoose": "^7.3.0",
+    "ngx-toastr": "^17.0.2",
+    "rxjs": "~6.6.0",
+    "toastr": "^2.1.4",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~12.2.7",
+    "@angular/cli": "~12.2.7",
+    "@angular/compiler-cli": "~12.2.0",
+    "@types/jasmine": "~3.8.0",
+    "@types/node": "^12.11.1",
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
+    "jasmine-core": "~3.8.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "^2.2.0",
+    "sinon": "^15.2.0",
+    "typescript": "~4.3.5"
+  }
+}
